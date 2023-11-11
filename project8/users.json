@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "name": "ayoub",
+            "lastname": "yolanda",
+            "city": "berlin",
+            "transactions":[
+                {
+                    "price": 50000,
+                    "date": "12/12/1390"
+                },
+                {
+                    "price": 10000
+
+                }
+            ]
+            
+        },
+        {
+            "name": "bohdan",
+            "lastname": "callahan",
+            "city": "berlin"
+        }
+    ]
+}

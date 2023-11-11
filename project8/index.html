@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px rgb(0, 0, 0) solid;
+        }
+
+        th {
+            background-color: rgb(190, 190, 190);
+        }
+
+        td,
+        th {
+            padding: 4px 12px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <table id="users">
+        <tr>
+            <th>نام</th>
+            <th>نام خوانوادگی</th>
+            <th>شهر</th>
+
+        </tr>
+        
+    </table>
+    <script>
+        function getUsers()
+        {
+
+            
+            fetch("users.json")
+            .then(function(f1){
+                return f1.json();
+            })
+            .then(function(data){
+                console.log(data)
+                data.users
+            })
+        }
+    getUsers()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+
+
+
+</head>
+
+<body>
+    <script>
+        function f1() {
+            i = 0;
+            while (i < 99) {
+                if ((i % 2) == 0) {
+                    console.log(i);
+                }
+                i = i + 1
+            }
+        }
+        function f2() {
+            n = prompt("عدد خود را وارد کنید")
+            i = 2;
+            r = true
+            while (i < n) {
+                if (n % i == 0) {
+                    r = false
+                }
+                i = i + 1
+            }
+            if (r == true) {
+                alert("عدد اول است")
+            }
+            if (r == false) {
+                alert("عدد اول نیست")
+            }
+        }
+        while(true){
+            f2()
+        }
+    </script>
+</body>
+
+</html>

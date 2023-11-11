@@ -1,0 +1,48 @@
+
+* {
+    background-color: bisque;
+    direction: rtl;
+}
+
+.post{
+    padding: 32px;
+}
+
+.post * {
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post .heading {
+    background-color: rgba(255,255,255,0.5);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.post .content {
+    text-indent: 16px;
+    line-height: 1.4;
+    text-align: justify;
+    direction: rtl;
+    color: rgb(160, 91, 7);
+}
+
+.it{
+    font-style: bold;
+}
+.post .more {
+    padding: 14px 25px;
+    border: 2px solid rgb(160, 91, 7);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.right-btn {
+    float: right;
+}
+.post img{
+    border-radius: 100005px;
+    width: 400px;
+    height: 400px;  
+    object-fit: cover;
+}

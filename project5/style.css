@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+#h1{
+    padding: 32px;
+    margin: 32px;
+}
+
+label {
+    display: block;
+    float:right;
+    width: 120px;
+}
+.my-input{
+    margin-bottom: 11px;
+    padding-right: 16px;
+
+}
+.number-input{
+    color: #b30d0d;
+    border-radius: 30px;
+}

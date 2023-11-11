@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <style>
+        html {
+            background-color: bisque;
+            padding: 30px;
+            color: red;
+        }
+
+        h3 {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="http://google.com">
+            google
+        </a>
+        <a href="http://digikala.com">
+            دیجی کالا
+
+        </a>
+        <span id="time">
+        </span>
+        <div>
+            <h1>
+                عنوان
+            </h1>
+            <h3>
+                توضیحات
+            </h3>
+        </div>
+    </div>
+            <button onclick="t()" type="button">نمایش ساعت</button>
+            <script>
+                function t(){
+                    console.log(Date())
+                    document.getElementById("time").innerHTML=Date()
+                }
+            </script>
+</body>
+
+</html>

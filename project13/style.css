@@ -1,0 +1,105 @@
+*{direction: rtl;
+
+    color: #d7fc06;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+.container{
+    width: 100%;
+    height:100vh ;
+    background:linear-gradient(0deg,#d7fc06,#187b27);
+    padding-top: 100px;
+
+    
+}
+.todo-app{
+    width: 600px;
+    height: 500px;
+    background-color:#333333;
+    margin-left: auto ;
+    margin-right: auto;
+    border-radius: 15px;
+    padding:32px;
+    
+}
+h1{
+    text-align: center;
+    font-family: "b nazanin";
+
+}
+h1 img{
+    width: 42px;
+
+}
+input[type=button]{
+    padding: 16px;
+    color: #d8d8d8;
+    border: none;
+    background-color: #3f3f3f;
+}
+input[type=button]:hover {
+    background-color: #070707;
+    cursor: pointer;
+}
+.text2{
+    background-color: #3f3f3f;
+    padding: 16px;
+}
+.zz{
+    margin-top: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.todo-item{
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-family: "b nazanin";
+    color: #d8d8d8;
+}
+.todo-list{
+    padding: 16px;
+}
+.todo-item span{
+    color: #ed3f76;
+}
+.header{
+    height: 92px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.menu{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    margin-right: 24px;
+}
+.menu .menu-link {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 100%;
+    
+}
+.menu .menu-link:hover {
+    border-bottom: #b90b42 2px solid ;
+}
+.menu .menu-link a{
+    text-decoration: none;
+}
+
+.search {
+    
+    padding: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 100px;
+    background-color: #555;
+    border: 1px solid #333;
+}
